@@ -1,0 +1,101 @@
+.Title{
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow{
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e63600, 0 0 40px #e63600, 0 0 50px #e63600, 0 0 60px #e63600, 0 0 70px #e63600;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #e63600, 0 0 40px #e63600, 0 0 50px #e63600, 0 0 60px #e63600, 0 0 70px #e63600, 0 0 80px #e63600;
+  }
+}
+
+.card {
+     
+    transition: .3s;
+    width:30%;
+    height:100%;
+    border-radius: 10px 10px 10px 10px ;
+}
+.card:hover {
+    box-shadow: 5px 5px 10px 10px rgba(248, 141, 141, 0.555)  ;
+}
+img {
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .card2{
+    
+    transition: .5s;
+    width: 30%;
+    height: 38%;
+    border-radius: 10px 10px 10px 10px ;
+    position: absolute;
+    left:445px ;
+    bottom: 230px;
+    top: 350px;
+  }
+  .card2:hover{
+    box-shadow: 5px 5px 10px 10px rgba(248, 141, 141, 0.555)  ; 
+  }
+
+.card3 {
+    transition: .3s;
+    width: 30%;
+    height: 38%;
+    border-radius: 10px 10px 10px 10px ;
+    position: absolute;
+    left:900px ;
+    bottom: 230px;
+    top: 350px; 
+
+}
+.card3:hover{
+    box-shadow: 5px 5px 10px 10px rgba(248, 141, 141, 0.555)  ;
+
+}
+.card4 {
+  transition: .3s;
+    width: 30%;
+    height: 38%;
+    border-radius: 10px 10px 10px 10px ;
+    position: absolute;
+    left:3 ;
+    bottom: 230px;
+    top: 750px; 
+}
+.card4:hover {
+  box-shadow: 5px 5px 10px 10px rgba(248, 141, 141, 0.555);
+}
+img {
+    border-radius: 10px 10px 10px 10px;
+  }
+.card5 {
+  transition: .3s;
+    width: 30%;
+    height: 38%;
+    border-radius: 10px 10px 10px 10px ;
+    position: absolute;
+    left:445px ;
+    bottom: 230px;
+    top: 750px; 
+} 
+.card5:hover{
+  box-shadow: 5px 5px 10px 10px rgba(248, 141, 141, 0.555);
+}
+.card6{
+  transition: .3s;
+  width: 30%;
+  height: 38%;
+  border-radius: 10px 10px 10px 10px ;
+  position: absolute;
+  left:900px ;
+  bottom: 230px;
+  top: 750px; 
+}
+.card6:hover{
+  box-shadow: 5px 5px 10px 10px rgba(248, 141, 141, 0.747);
+}
